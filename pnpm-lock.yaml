@@ -26,24 +26,6 @@ importers:
         specifier: ^4.2.5
         version: 4.2.5(vue@3.3.13)
 
-  packages/appsc:
-    devDependencies:
-      '@nuxt-monorepo/ui':
-        specifier: workspace:*
-        version: link:../ui
-      '@nuxt/devtools':
-        specifier: latest
-        version: 1.0.6(nuxt@3.8.2)(vite@5.0.10)
-      nuxt:
-        specifier: ^3.8.2
-        version: 3.8.2(vite@5.0.10)
-      vue:
-        specifier: ^3.3.10
-        version: 3.3.13
-      vue-router:
-        specifier: ^4.2.5
-        version: 4.2.5(vue@3.3.13)
-
   packages/ui:
     devDependencies:
       '@nuxt/devtools':
