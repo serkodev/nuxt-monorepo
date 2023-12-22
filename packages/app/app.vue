@@ -1,5 +1,5 @@
 <template>
   <div>
-    <TheMessage />
+    <UiTheMessage />
   </div>
 </template>
