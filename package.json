@@ -1,3 +1,10 @@
 {
-  "name": "nuxt-monorepo"
+  "name": "nuxt-monorepo",
+  "scripts": {
+    "packages": "dotenv -- pnpm --filter",
+    "app": "pnpm packages @nuxt-monorepo/app"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^7.3.0"
+  }
 }
