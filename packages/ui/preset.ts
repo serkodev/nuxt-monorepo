@@ -5,5 +5,10 @@ export default definePreset({
   presets: [
     presetUno(),
   ],
-  shortcuts: [{ 'bg-ui': 'bg-sky' }],
+  theme: {
+    colors: {
+      'app': 'blue', // get override by packages/app/unocss.config.ts
+      'ui': 'green'
+    }
+  }
 });
