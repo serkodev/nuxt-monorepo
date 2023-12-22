@@ -15,7 +15,10 @@ const config = useRuntimeConfig()
     {{ config.public.apiBase }}
     <UiTheMessage ref="theMessage" />
     
-    <div class="bg-ui">bg-ui</div>
-    <div class="bg-app">bg-app</div>
+    <!-- overrided by 'app' tailwind config -->
+    <div class="bg-app">red bg</div>
+
+    <!-- from 'ui' tailwind config -->
+    <div class="bg-ui">green bg</div>
   </div>
 </template>
