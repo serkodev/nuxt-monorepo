@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { UiTheMessage } from '#components'
+import { baseUrl } from '@nuxt-monorepo/api'
 
 const theMessage = ref<InstanceType<typeof UiTheMessage> | null>()
 
@@ -14,5 +15,6 @@ const config = useRuntimeConfig()
   <div>
     {{ config.public.apiBase }}
     <UiTheMessage ref="theMessage" />
+    api/baseUrl: {{ baseUrl }}
   </div>
 </template>

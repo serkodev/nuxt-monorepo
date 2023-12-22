@@ -1,0 +1,6 @@
+{
+    "name": "@nuxt-monorepo/api",
+    "private": true,
+    "type": "module",
+    "main": "./index.ts"
+}

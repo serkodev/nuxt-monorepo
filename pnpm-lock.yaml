@@ -12,7 +12,13 @@ importers:
         specifier: ^7.3.0
         version: 7.3.0
 
+  packages/api: {}
+
   packages/app:
+    dependencies:
+      '@nuxt-monorepo/api':
+        specifier: workspace:^
+        version: link:../api
     devDependencies:
       '@nuxt-monorepo/ui':
         specifier: workspace:^
