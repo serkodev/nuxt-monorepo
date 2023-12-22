@@ -14,5 +14,6 @@ const config = useRuntimeConfig()
   <div>
     {{ config.public.apiBase }}
     <UiTheMessage ref="theMessage" />
+    <div class="bg-ui">ui UnoCSS</div>
   </div>
 </template>
